@@ -1,0 +1,8 @@
+"Artist", "Song", Metal, 734944, 152
+The_Beatles Hey_Jude Rock 735944 245
+Metallica One Metal 791002 231
+Pink_Floyd Wish_You_Were_Here Rock 736444 324
+Metallica Battery Metal 730344 222
+Arctic_Monkeys Arabella Indie 813631 198
+Scorpions Rock_You_Like_a_Hurricane Metal 735944 210
+Tais_Goulart Adventurous_Heart Rock 752474 145
