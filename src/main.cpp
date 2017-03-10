@@ -27,7 +27,7 @@ using namespace std;
 
 
 int main(int argc, const char * argv[]) {
-
+    
     Catalog c = Catalog();
     Music m;
     
@@ -45,7 +45,7 @@ int main(int argc, const char * argv[]) {
     c.remove(Music("Crtist", "Song", "Rock", 734944, 152));
     
     c.display();cout << "\n\n";
-
+    
     cout << "Appending G,C,E,R,Irtists..." <<endl;
     c.append(Music("Grtist", "Song", "Rock", 734944, 152));
     c.append(Music("Crtist_Rock_Star", "Song", "Indie", 734944, 152));
@@ -54,7 +54,7 @@ int main(int argc, const char * argv[]) {
     c.append(Music("Irtist", "Song", "Folk", 734944, 152));
     
     c.display();cout << "Size: " << c.size() << "\n\n";
-
+    
     cout << "Sorting..." <<endl;
     c.sortList();
     c.display();cout << "\n\n";
@@ -64,7 +64,7 @@ int main(int argc, const char * argv[]) {
     char rock[] = "Rock";
     Catalog c2 = c.filter(rock);
     c2.display();cout << "\n\n";
-
+    
     cout << "Front of list: "<< c.front()->data.toString() << "\n";
     cout <<  "Back of list: " << c.back()->data.toString() << "\n";
     

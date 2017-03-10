@@ -62,7 +62,7 @@ public:
     void insert(Music m);
     void insert(Music m, int index);
     void sortList();
-    
+    void loadFile();
     Catalog filter(char *value);
 };
 

@@ -329,6 +329,18 @@ void Catalog::splitList(Node *source, Node **frontRef, Node **backRef){
 
 #pragma mark TODO - Load from file
 
+void Catalog::loadFile(){
+    string artist, song, genre;
+    int duration,date;
+    FILE *musicdata;
+    musicdata = fopen("Music.txt","r");
+    fscanf(musicdata,"%s %s %s %d %d",artist,song,genre,&duration,&date);
+    while (fscanf(musicdata,"%s %s %s %d %d",artist,song,genre,&duration,&date) != -1) {
+        artist+='a';
+    }
+    
+}
+
 Catalog Catalog::filter(char *value){
     Node *aux = head;
     Catalog c = NULL;
