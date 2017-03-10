@@ -4,7 +4,7 @@
 //
 //  Created by Danilo Mendes on 4/2/16.
 //  Copyright © 2016 Danilo Mendes. All rights reserved.
-//
+// Arthur
 
 #include "Catalog.hpp"
 
