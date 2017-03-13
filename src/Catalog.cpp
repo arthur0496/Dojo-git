@@ -328,6 +328,10 @@ void Catalog::splitList(Node *source, Node **frontRef, Node **backRef){
 }
 
 #pragma mark TODO - Load from file
+//teste 123
+//teste 123
+//teste12
+
 
 Catalog Catalog::filter(char *value){
     Node *aux = head;
